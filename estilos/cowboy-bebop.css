@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    background: url(https://img.olhardigital.com.br/wp-content/uploads/2021/06/fun-FUN-CBY-JPN_S1-Full-Image_GalleryCover-en-US-1489784785929._UR19201080_RI_.jpg) fixed;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(70, 69, 69), black);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+header > h1 {
+    font-size: 3em;
+    font-family: 'Srirascha', cursive;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);;
+}
+
+header > p {
+    text-align: right;
+    font-size: 1.5em;
+    margin: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);;
+}
+
+nav {
+    padding: 3px;
+}
+
+nav > a {
+    margin: 12px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(184, 0, 0);
+}
+
+a:hover {
+    background-color: rgb(71, 70, 70);
+    padding: 2px 5px;
+    border-radius: 5px;
+
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.904);
+    min-width: 345px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+main h1, h2 {
+    margin: 0px 15px 10px;
+}
+
+main p {
+    margin: 0px 15px 10px;
+    text-align: justify;
+}
+
+main img {
+    width: 95%;
+    margin: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
